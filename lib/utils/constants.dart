@@ -1,0 +1,15 @@
+List contacts = [
+  {'name': 'Marco Franco', 'group': 'M'},
+  {'name': 'Raul Alday', 'group': 'R'},
+  {'name': 'Jessica Alba', 'group': 'J'},
+  {'name': 'Roger Waters', 'group': 'R'},
+  {'name': 'Darth Vader', 'group': 'D'},
+  {'name': 'Homer Simpson', 'group': 'H'},
+  {'name': 'Bill Gates', 'group': 'B'},
+  {'name': 'Elon Musk', 'group': 'E'},
+  {'name': 'Enrique Peña', 'group': 'E'},
+  {'name': 'Angeles Rodriguez', 'group': 'A'},
+  {'name': 'Monica Alvarado', 'group': 'M'},
+  {'name': 'Estrella Fugaz', 'group': 'E'},
+  {'name': 'Juana Lopez', 'group': 'J'},
+];
