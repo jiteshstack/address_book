@@ -1,4 +1,5 @@
 import 'package:address_book/pages/contact_details.dart';
+import 'package:address_book/pages/search.dart';
 import 'package:flutter/material.dart';
 
 class AppRouter {
@@ -6,6 +7,7 @@ class AppRouter {
 
   static const landingRoute = '/';
   static const contactDetails = '/contact/details';
+  static const searchList = '/searchList';
 }
 
 Route<dynamic> generateRoute(RouteSettings settings) {
@@ -13,6 +15,9 @@ Route<dynamic> generateRoute(RouteSettings settings) {
   switch (uriData.path) {
     case AppRouter.contactDetails:
       return _getPageRoute(ContactDetails(name: settings.arguments), settings);
+      break;
+    case AppRouter.searchList:
+      return _getPageRoute(SearchList(), settings);
       break;
     default:
       return MaterialPageRoute(
