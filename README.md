@@ -8,6 +8,7 @@ This project is build to show the list of user contacts.
 - lib/pages: This folder contains all screeen of the App.
 - lib/utils: This folder contains static values.
 - router: This file has navigatioin details of screen.
+- screensShot: App screenshots
 
 
 ### Make sure to include instructions on how to setup and run your solutions
